@@ -97,9 +97,9 @@ placeholder="Agregar la fecha de tu nota"
 >
 
 <div id="button-container">
-<button type="button" id="borrar-nota" class="button"><img src="./Images/logo-rojo.png" alt="logo-rojo">
+<button type="button" id="borrar-nota" class="button"><img src="./assets/Images/logo-rojo.png" alt="logo-rojo">
 Borrar Nota</button>
-<button type="submit" id="agregar-nota" class="button"><img src="./Images/logo-negro.png" alt="logo-negro">Agregar Nota</button>
+<button type="submit" id="agregar-nota" class="button"><img src="./assets/Images/logo-negro.png" alt="logo-negro">Agregar Nota</button>
 </div>
 </form>
 </section>

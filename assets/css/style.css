@@ -1,4 +1,135 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-shadow: 0px 0px 16px 3px rgba(56, 55, 55, 0.75) inset;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(56, 55, 55, 0.75) inset;
+  -moz-box-shadow: 0px 0px 16px 3px rgba(56, 55, 55, 0.75) inset;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: lighter;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+.logo {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+#main-description {
+  padding: 0 2rem;
+}
+
+#centered-button {
+  width: 100vw;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-btn {
+  border-color: #428cfd;
+  color: #428cfd;
+  background-color: white;
+
+}
+
+#main-js {
+  padding-top: 2rem;
+}
+
+#main-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.15rem black solid;
+  border-radius: 1rem;
+  width: 70vw;
+  margin: 0 15vw;
+  background-color: #dedede;
+  padding: 1rem 0;
+}
+
+#titulo {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.5rem;
+}
+
+#nota {
+  font-style: italic;
+}
+
+#fecha {
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  text-align: right;
+}
+
+
+.input {
+  border: none;
+  outline: none;
+  width: 14rem;
+  margin: 1rem 0;
+  text-align: center;
+  background-color: #dedede;
+  color: #787878;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  background-color: #dedede;
+  border: 0.1rem solid;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+#borrar-nota {
+  border-color: #dc5764;
+  color: #dc5764;
+  margin-right: 0.25rem;
+  
+}
+
+#agregar-nota {
+  border-color: black;
+  color: black;
+ margin-left: 0.25rem;
+}
+
+#notas {
+  margin: 2rem;
+  padding: 1rem;
+  width: 23vw;
+  border: 0.15rem black solid;
+  background-color: #dedede;
 }
