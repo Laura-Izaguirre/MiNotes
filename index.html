@@ -1,19 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MiNotes</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    <header>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog de Notas</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="./Images/icono.png"
+        alt="logo-nota"
+        id="logo-nota"
+        class="logo"
+      />
+      <h1 id="header-title">MiNotes</h1>
     </header>
-    
-    <main>
 
+    <main id="main">
+      <section id="contenido-1">
+        <p id="main-description">
+          MiNotes es una simple Web App que nos permite guardar notas de manera
+          facil y practica, incluyendo la habilidad de guardar tus notas con
+          fecha. Todo esto es posible con las capacidades de JavaScript.
+        </p>
+        <div id="centered-button">
+          <button type="button" 
+          id="main-btn" 
+          class="button">
+            <img src="./Images/logo-azul.png" 
+            alt="logo-azul" />
+            Escribir Nota
+          </button>
+        </div>
+      </section>
+      <section id="contenido-2">
+        <article id="const-notas"></article>
+      </section>
     </main>
 
     <footer>
@@ -21,5 +51,5 @@
     </footer>
 
     <script src="./assets/js/index.js"></script>
-</body>
+  </body>
 </html>
